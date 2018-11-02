@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Scheduled flow will find all tasks overdue for long enough date (using property)
+Will close them as incomplete + provide worknotes w/ reason and log the closure</description>
+        <internal_name>check_overdue_and_handle_auto-close</internal_name>
+        <label_cache>[{"name":"32ede0f4-fd04-46d7-865e-8c2d3d003877.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"84193e66-386e-4668-b37f-d7505f1e57e6.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"84193e66-386e-4668-b37f-d7505f1e57e6.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"32ede0f4-fd04-46d7-865e-8c2d3d003877.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"8b1c916b-20b8-40ff-ba4b-cd8bb9e538f0.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"8b1c916b-20b8-40ff-ba4b-cd8bb9e538f0.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"c38bb0a5-cfc0-4818-87db-08aa7e827597.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c38bb0a5-cfc0-4818-87db-08aa7e827597.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"c38bb0a5-cfc0-4818-87db-08aa7e827597.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"9620566e-4a53-4054-bbca-2fc00fd5d94f.new_date","label":"2➛new_date","reference_display":"new_date","type":"glide_date","base_type":"glide_date"},{"name":"4b7e62fa-5b0f-4965-a1cb-d3fc22118921.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"32ede0f4-fd04-46d7-865e-8c2d3d003877.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Check Overdue and handle auto-close</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-02 18:48:19</sys_created_on>
+        <sys_id>ac683ed5dbe16300477d9fd2ca9619bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check Overdue and handle auto-close</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_ac683ed5dbe16300477d9fd2ca9619bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-02 18:55:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac683ed5dbe16300477d9fd2ca9619bc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ac683ed5dbe16300477d9fd2ca9619bc"/>
+</record_update>
